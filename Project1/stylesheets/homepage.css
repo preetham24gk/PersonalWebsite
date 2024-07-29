@@ -1,0 +1,79 @@
+body {
+    color: black;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.homepage-header,.homepage-footer {
+
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 0 0 25px 0 black;
+    text-transform: uppercase;
+}
+
+.homepage-nav-container, .footer-container {
+    background-color: black;
+    box-shadow: 0 0 15px 0 black;
+}
+
+.homepage-navbar-links,.homepage-footer-links {
+    margin: 30px;
+    color: whitesmoke;
+    padding: 30px;
+    text-transform: uppercase;
+
+}
+
+.homepage-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+.homepage-breif-section,
+.homepage-projects-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.homepage-paragraph {
+    text-align: justify;
+    line-height: 1.50em;
+}
+
+h2,
+h3 {
+    text-decoration: underline black solid 1px;
+    text-transform: capitalize;
+}
+
+.section-image {
+    border: 0.5px solid black;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #F5F5F5;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.homepage-projects-ul {
+    list-style-image: linear-gradient(to left bottom, black, white);
+    display:flexbox;
+
+}
+.homepage-projects-list-items{
+    text-align: left;
+    line-height: 1.66em;
+}
